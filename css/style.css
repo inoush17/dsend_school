@@ -1,0 +1,477 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../assets/fonts/roboto/Roboto-Thin.ttf);
+} 
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../assets/fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-Medium;
+    src: url(../assets/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../assets/fonts/roboto/Roboto-Light.ttf);
+}
+
+.roboto-thin{
+    font-family: roboto-thin;
+}
+
+.roboto-bold{
+    font-family: roboto-bold;
+}
+
+.roboto-black{
+    font-family: roboto-black;
+}
+
+.roboto-regular{
+    font-family: roboto-regular;
+}
+
+.roboto-medium{
+    font-family: roboto-medium;
+}
+.roboto-light{
+    font-family: roboto-light;
+}
+
+html,
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: roboto-regular;
+    scroll-behavior:smooth;
+}
+
+.full-banner{
+    background-image: url(../assets/images/portrait\ étudiant.jpg);
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.full-banner2{
+    background-image: url(../assets/images/freelance.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.full-banner3{
+    background-image: url(../assets/images/cours\ du\ soir.png);
+    background-size: cover;
+    height: 120vh;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.full-container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.banner{
+    padding: 10px 20px;
+}
+
+.details-{
+    color: #5E3606;
+    font-family: roboto-black;
+    font-size: 30px;
+}
+
+.banner h1{
+    font-size: 38px; 
+    line-height: 50px;
+}
+
+.banner h2-title{
+    font-family: roboto-regular;
+    
+}
+
+.h2-title-{
+    color: #5E3606;
+    font-family: roboto-black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text-lorem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus{
+    background-color: #000000;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50px;
+    position: relative;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.d-grid-3 img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.d-grid-3 p{
+    font-size: 10px;
+}
+
+.d-grid-3{
+    background-color: #00000061;
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+    border-radius: 8px;
+    padding: 20px 28px;
+
+}
+
+.historique{
+    font-family: roboto-black;
+}
+
+.mask{
+    background-color: #000000a5;
+    height: 120vh;
+}
+
+a, ul{
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.menu-bar{
+    background-color: #0000003a;
+    margin: 0 60px;
+    padding: 0 40px;
+}
+
+.button{
+    text-align: right;
+}
+
+.h1-title{
+    background-color: #000000;
+}
+
+.text{
+    font-family: roboto-thin !important;
+    letter-spacing: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.menu-bar .menu-items li {
+    display: inline-block;
+    font-family: roboto-bold;
+    margin: 0 14px;
+    font-size: 16px; 
+}
+
+.section1{
+    padding: 0 350px;
+}
+
+.menu-bar .menu-items li a:hover{
+    color: #000000;
+} 
+
+.menu-bar .menu-items li a:focus{
+    color: #5E3606;
+} 
+
+.internet ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.description-banner{
+    background-image: url(../assets/images/photo-retour-ecole-papeterie-element-education.png);
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+}
+
+.descrip{
+    background-color: #00000094;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.description-banner-{
+    width: 50%;
+    line-height: 30px;
+}
+
+.d-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin: auto;
+}
+
+.d-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.separator2{
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 1400px;
+    text-align: center;
+}
+
+.signature{
+    font-size: 10px !important;
+}
+
+.d-g{
+    background-image: url(../assets/images/cours.png);
+    background-position: center;
+    height: 130vh;
+    width: 600px;
+    background-size: cover;
+}
+
+.cs{
+    background-image: url(../assets/images/salle\ examen.png);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 135vh;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.css{
+    width: 600px;
+    height: 135vh;
+    border-radius: 10px;
+    background-color: #0000008f;
+    backdrop-filter: blur(2px);
+}
+
+.roboto{
+    font-family: roboto-medium;
+}
+
+.roboto--{
+    font-family: roboto-light;
+    line-height: 30px;
+}
+
+.text-lorem{
+    background-image: url(../assets/images/batiments-rouges-menages_1127-2024.png);
+    background-position: center;
+    color: #FFFFFF;
+    height: 130vh;
+    background-size: cover;
+    width: 600px;
+}
+
+.maskk{
+    background-color: #00000090;
+    height: 130vh;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    padding: 0 50px;
+}
+
+.small-container{
+    background-image: url(../assets/images/cour\ piano.png);
+    background-position: center;
+    display: inline-block;
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.bottom-footer{
+    text-align: center;
+    position: relative;
+}
+
+form- input[type ="text"], form input[type ="email"],form textarea{
+    padding: 6px;
+    font-size: 0.8rem;
+    width: 95%;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.butt[type ="submit"]{
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 0;
+    box-sizing: border-box !important;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.butt{
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 0px;
+    box-sizing: border-box !important;
+    border-radius: 7px;
+    width: 100%;
+}
+
+footer{
+    background-color: #5E3606;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    height: fit-content;
+}
+
+.text-bottom{
+    text-align: center;
+}
+
+.details{
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+.Doc{
+    background-image: url(../assets/images/biblio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    margin: 0 150px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mask-- table {
+    text-align: left;
+    padding: 5px 50px;
+}
+
+.button-doc{
+    background-color: #5E3606;
+    padding: 0 20px;
+    border-radius: 8px;
+
+}
+button{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.mask--{
+    background-color: #000000;
+    margin: 0 10%;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.Doc{
+    text-align: center;
+}
+
+.return{
+    color: #FFFFFF;
+}
+
+.button-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media(max-width: 1100px) {
+    .head{
+        display: none;
+    }
+
+}
+
+@media(max-width: 920px) {
+    
+}
+
+@media(max-width: 840px) {
+    
+}
+
+@media(max-width: 1200px) {
+
+}
+
+
+
+
+

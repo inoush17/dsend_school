@@ -1,0 +1,113 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../assets/fonts/roboto/Roboto-Thin.ttf);
+} 
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../assets/fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-Medium;
+    src: url(../assets/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../assets/fonts/roboto/Roboto-Light.ttf);
+}
+
+.roboto-thin{
+    font-family: roboto-thin;
+}
+
+.roboto-bold{
+    font-family: roboto-bold;
+}
+
+.roboto-black{
+    font-family: roboto-black;
+}
+
+.roboto-regular{
+    font-family: roboto-regular;
+}
+
+.roboto-medium{
+    font-family: roboto-medium;
+}
+.roboto-light{
+    font-family: roboto-light;
+}
+
+html,
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: roboto-regular;
+    scroll-behavior:smooth;
+    color: #ffffff;
+}
+.sectio{
+    margin: 50px 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    border-radius: 8px;
+    line-height: 10px;
+}
+
+.form_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .form{
+    background-color: #000000a7;
+    width: 35%;
+    position: relative;
+    bottom: -130px;
+}
+
+.form input{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: roboto-thin;
+}
+
+.button{
+    background-color: #5E3606;
+    color: #ffffff;
+    padding: 8px 0;
+    border: none;
+    border:#ffffff !important;
+    border-radius: 5px;
+    font-family: roboto-black;
+}
+
+img{
+    width: 35%;
+    height: 700px;
+    position: absolute;
+    border-radius: 8px;
+    right: 40%;
+}
