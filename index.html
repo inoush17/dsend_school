@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>D_Send</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -54,37 +57,37 @@
                     </tr>
                 </table>
             </header>
-
             <div class="banner">
                 <div>
-                    <h1>
-                        D_SEND vous souhaite la <br>
-                        <span class="text">BIENVENUE ,<br>
-                            WELCOME ,<br>
-                            N'LIWALÉ ,<br>
-                            BIENVENIDO ,<br>
+                    <h1 class="animated">
+                        D_SEND vous souhaite la
+                        <span class="text">BIENVENUE ,
+                            WELCOME ,
+                            N'LIWALÉ ,
+                            BIENVENIDO ,
                             WILLKOMMEN</span>
                             sur sa plateforme.
                     </h1>
                 </div><br><br>
-
-                <div>
-                    <h2 class="h2-title">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eaque natus <br>impedit. Accusantium
-                        suscipit voluptatibus nostrum.
-                    </h2><br />
-                </div>
-
-                <div class="button-header">
-                    <div><a href=""><button>DÉCOUVRIR  D_SEND</button></a></div>
-                    <div><a href=""><button>EN SAVOIR PLUS</button></a></div>
-                </div>
             </div>
+
+            
+            <div>
+                <h2 class="h2-title">
+                    Découvrez l'enseignement de qualité · Trouvez votre voie parmi nos filières accréditées par le CAMES
+                </h2><br>
+            </div>
+    
+            <div class="button-header">
+                <div><a href=""><button>DÉCOUVRIR  D_SEND</button></a></div>
+                <div><a href=""><button>EN SAVOIR PLUS</button></a></div>
+            </div>
+            
         </div>
     </div>
     </div><br><br><br><br>
 
-    <section class="section1">
+    <section class="d-d-grid">
         <div class="d-grid">
             <div>
                 <h2 class="h2-title-">QUELQUES IMAGES DE NOS ARTICLES</h2>
@@ -118,7 +121,7 @@
         <div class="descrip"id="ensavoirplus">
                 <div class="description-banner-">
                     <h3>Briève description de D_Send School</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eaque natus impedit. Accusantium
+                    <p class="banner-descrip">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eaque natus impedit. Accusantium
                         suscipitvoluptatibus nostrum, libero temporibus neque enim facilis nesciunt?
                         Amet, quaerat atque cumque id dolorum laborum sunt.
                         Amet, quaerat atque cumque id dolorum laborum sunt.
@@ -131,10 +134,29 @@
 
     <section>
         <div>
+            <h2 class="h2-title- text-center">NOS FORMATIONS A D_SEND</h2>
+        </div>
+        <div class="formation-">
+            <div class="formation">
+                <div>Développement web et Application</div>
+                <div>Référence digitale</div>
+                <div>Secrétariat bureautique</div>
+                <div>Secrétariat administratif</div>
+                <div>Marketing digital</div>
+                <div>Comptabilité et gestion des entreprises</div>
+                <div>Graphisme</div>
+                <div>Génie civil</div>
+                <div>Droit des affaires</div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    <section>
+        <div>
             <h2 class="h2-title- text-center" id="documentation">TROUVER TOUT TYPES DE DOCUMENTS QUE VOUS CHERCHEZ</h2>
         </div>
 
-        <div>
+        <div class="Doc-">
             <div class="Doc">
                 <div class="mask--">
                     <div class="documentation">
@@ -165,7 +187,7 @@
         </div>
     </section><br><br><br><br>
 
-    <section>
+    <section class="d-d-grid">
         <div class="d-grid">
             <div class="info">
                 <h2>Pour tous vos inquiétudes, questions,</h2>
@@ -222,7 +244,7 @@
                     <div>Assurances</div>
                     <div>Concours d”admission</div>
                     <div>Filières disponibles</div>
-                    <div>Martenelle</div>
+                    <div>Cours en ligne</div>
                     <div>Cours pour des personnes agêes</div>
                 </div>
             </div>
@@ -272,6 +294,38 @@
             <li><a href=""><img src="./assets/images/facebook.png" alt=""></a></li>
         </ul>
     </div>
+    <script>
+        
+              // var navLinks = document.getElementById("navLinks");
+        // function showMenu(){
+        //     navLinks.style.right = "0";
+        // }
+        // function hideMenu(){
+        //     navLinks.style.display = "none";
+        //     document.body.style.backgroundColor = "blue";
+            
+        // }
+        (function () {
+            let sidebarOpened = false;
+            let verif = false;
+            let menu = document.querySelector('.links');
+            let button = document.querySelector('.menuburger');
+            button.addEventListener('click', function(e){
+                e.stopPropagation();
+                e.preventDefault();
+                menu.style.display = 'block';
+                document.body.classList.add('has-sidebar');
+                sidebarOpened = true;
+            })
+
+            document.body.addEventListener('click', function () {
+                if (sidebarOpened) {
+                    document.body.classList.remove('has-sidebar');
+                }
+    
+            })
+            })()
+    </script>
 </body>
 
 </html>

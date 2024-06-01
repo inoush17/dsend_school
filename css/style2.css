@@ -124,6 +124,14 @@ img{
         bottom: -80px;
         left: -10%;
     }
+
+    form input{
+        font-size: 10px;
+    }
+
+    form label{
+        font-size: 15px;
+    }
 }
 
 @media(max-width: 840px) {

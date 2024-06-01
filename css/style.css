@@ -46,6 +46,7 @@
 
 .roboto-medium{
     font-family: roboto-medium;
+    color: #FFFFFF;
 }
 .roboto-light{
     font-family: roboto-light;
@@ -96,7 +97,10 @@ body{
 }
 
 .banner{
-    padding: 10px 10px;
+    text-align: center;
+    margin-top: 70px;
+    color: #000000;
+    
 }
 
 .details-{
@@ -106,12 +110,18 @@ body{
 }
 
 .banner h1{
-    font-size: 38px; 
+    font-size: 40px; 
     line-height: 50px;
 }
 
-.banner h2-title{
-    font-family: roboto-regular;
+.h2-title{
+    font-family: roboto-thin;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-spacing: 8px;
+    font-size: 25px;
+    
     
 }
 
@@ -197,9 +207,29 @@ a, ul{
     background-color: #000000;
 }
 
+.sous-title{
+    width: 100%;
+    
+}
+
+.animated{
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%; 
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%; 
+    }
+}
+
 .text{
     font-family: roboto-thin !important;
-    letter-spacing: 10px;
 }
 
 .text-center{
@@ -211,10 +241,6 @@ a, ul{
     font-family: roboto-bold;
     margin: 0 14px;
     font-size: 16px; 
-}
-
-.section1{
-    padding: 0 350px;
 }
 
 .menu-bar .menu-items li a:hover{
@@ -230,7 +256,6 @@ a, ul{
     justify-content: center;
     align-items: center;
     gap: 30px;
-   
 }
 
 .description-banner{
@@ -260,7 +285,7 @@ a, ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 100px;
     margin: auto;
     width: 100%;
 }
@@ -359,10 +384,6 @@ a, ul{
     border-radius: 8px;
 }
 
-.info{
-    padding-left: 20px;
-}
-
 .maskk{
     background-color: #00000090;
     height: 100vh;
@@ -441,7 +462,7 @@ footer{
     background-image: url(../assets/images/biblio.jpg);
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
     border-radius: 10px;
     color: #FFFFFF;
     display: flex;
@@ -450,7 +471,10 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+}
+
+.Doc-{
+    padding: 0 50px;
 }
 
 .mask--{
@@ -476,14 +500,31 @@ button{
 }
 
 .mask--{
-    
     margin: 0 10%;
     width: 90%;
     border-radius: 8px;
 }
 
-.Doc{
+.formation div {
+    background-image: url(../assets/images/groupe.png);
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 50px;
+    font-size: 22px;
+    font-family: roboto-black;
 }
 
 .return{
@@ -495,25 +536,50 @@ button{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-top: 40vh;
+}
+section a img {
+    display: none;
 }
 
+.info{
+    padding-left: 25px;
+}
+
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
+    
     span.text {
         font-size: 20px;
     } 
     h1 {
         font-size: 20px;
     }
+
     .lorem-1, p {
-        font-size: 10px;
+        font-size: 8px;
+        padding: 10px 0;
+        word-spacing: 5px;
+    }
+
+    .lorem-1{
+        font-size: 5px;
         padding: 10px 0;
     }
+
     h2.h2-title {
         max-width: 50%;
         font-size: 10px;
     }
     
+    .banner-descrip{
+        font-size: 10px;
+        line-height: 10px;
+    }
     
     .menu-bar {
         display: none;
@@ -528,6 +594,17 @@ button{
         flex-direction: column;
         gap: 10px;
         width: 100%;
+    }
+
+    .formation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .full-banner{
+        background-position: center;
     }
     .d-grid1 {
         display: flex;
@@ -560,8 +637,16 @@ button{
         display: flex;
         flex-direction: column;
     }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    }
+    }
 
-}
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
