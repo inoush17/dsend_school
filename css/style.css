@@ -99,8 +99,6 @@ body{
 .banner{
     text-align: center;
     margin-top: 70px;
-    color: #000000;
-    
 }
 
 .details-{
@@ -114,8 +112,38 @@ body{
     line-height: 50px;
 }
 
+.cours-en-ligne{
+    background-image: url(../assets/images/cour\ en\ ligne.png);
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: roboto-black;
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #5E3606;
+    border-radius: 15px;
+}
+
+.cours-en-ligne-{
+    padding: 0 100px;
+    
+}
+
+.mak{
+    background-color: #ffffff60;
+    width: 100%;
+    height: 200px;
+}
+
 .h2-title{
     font-family: roboto-thin;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -151,6 +179,15 @@ body{
     position: relative;
 }
 
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -162,6 +199,7 @@ body{
 .d-grid-3 img{
     width: 100%;
     border-radius: 8px;
+    height: 250px;
 }
 
 .d-grid-3 p{
@@ -525,6 +563,7 @@ button{
     padding: 0 50px;
     font-size: 22px;
     font-family: roboto-black;
+    color: red;
 }
 
 .return{
@@ -536,7 +575,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 40vh;
+    margin-top: 10vh;
 }
 section a img {
     display: none;
@@ -544,6 +583,11 @@ section a img {
 
 .info{
     padding-left: 25px;
+}
+
+.buttonn{
+    padding: 10px 40px;
+    border-radius: 8px;
 }
 
 
@@ -560,10 +604,24 @@ section a img {
         font-size: 20px;
     }
 
+    .cours-en-ligne{
+        font-size: 18px;
+    }
+
     .lorem-1, p {
         font-size: 8px;
         padding: 10px 0;
         word-spacing: 5px;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    
     }
 
     .lorem-1{
